@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App() {
-  return (
-    <h1 className="text-3xl bg-red-400 font-bold underline">Hello world!</h1>
-  );
+  return <h1>Hello</h1>;
 }
 
 export default App;
