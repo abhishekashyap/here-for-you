@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
-import Gem1 from "../../static/gem-1.svg";
-import Gem2 from "../../static/gem-2.svg";
-import Gem3 from "../../static/gem-3.svg";
-import Gem4 from "../../static/gem-4.svg";
-import Gem5 from "../../static/gem-5.svg";
-import Gem6 from "../../static/gem-6.svg";
+import Gem1 from "../../../static/gem-1.svg";
+import Gem2 from "../../../static/gem-2.svg";
+import Gem3 from "../../../static/gem-3.svg";
+import Gem4 from "../../../static/gem-4.svg";
+import Gem5 from "../../../static/gem-5.svg";
+import Gem6 from "../../../static/gem-6.svg";
 
 export default function Gems() {
   const ref = useRef<HTMLDivElement>(null);
