@@ -6,7 +6,7 @@ export default function TextBox() {
   const [isFocused, setIsFocused] = useState(true);
   return (
     <div
-      className={`h-[8%] bottom-2 flex rounded-full bg-white w-full transition-all border-4 ${
+      className={`h-20 bottom-2 flex rounded-full bg-white w-full transition-all border-4 ${
         isFocused ? "border-green-500" : " "
       }`}
     >
