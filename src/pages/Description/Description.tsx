@@ -8,19 +8,20 @@ export default function Description() {
     <ContentLayout>
       <p className="text-teal-700 mt-32 text-lg text-center">
         <span className="font-bold">Here for you</span> is a platform where you
-        can share your thoughts, ideas, your feelings without hesitation. All
-        your secrets are just between you and me.
+        can express your thoughts and feelings with a friend without hesitation.
+        All your secrets are safe with me.
       </p>
       <p className="text-teal-700 mt-8 text-lg text-center">
-        In India, mental health is still a taboo topic. Convincing our parents,
-        peers or even close friends that we require counselling is perceived
-        with a sense of judgement and there is stigma associated with those
-        having mental issues. They are also considered as being consequence of a
-        lack of self-discipline and willpower.
+        Mental health is still a taboo in India. Trying to convince our parents,
+        peers or even close friends that one requires counselling is looked down
+        upon and is invited with judgement. There is a stigma associated with
+        the ones who go through it. It is often mistaken for a lack of
+        self-discipline and willpower.
       </p>
       <p className="text-teal-700 mt-8 text-lg text-center">
-        Whether it's your need for psychologist or you need someone to talk to,
-        I'm here to help you and clear all your doubts and hesitations.
+        If you need a psychologist or someone to talk to, I'm here to help you
+        with your doubts and be a friend. Do not hesitate. You are not alone in
+        this.
       </p>
       <div className="flex absolute bottom-60">
         <Link
@@ -30,7 +31,7 @@ export default function Description() {
           <IoChevronBack /> Prev
         </Link>
         <Link
-          to="/choice"
+          to="/letUsTalk"
           className="ml-4 flex items-center text-2xl bg-green-500 hover:bg-teal-700 text-white py-4 px-6 rounded-full transition-all"
         >
           Next <IoChevronForward />
