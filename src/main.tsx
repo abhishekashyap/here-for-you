@@ -4,7 +4,7 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Chat from "./pages/Chat/Chat";
-import Layout from "./layout/layout";
+import Layout from "./layout/Layout";
 
 ReactDOM.render(
   <React.StrictMode>
