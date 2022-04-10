@@ -32,4 +32,30 @@ export const botMessages: Message[] = [
     type: "bot",
     message: "Hmm?",
   },
+  {
+    id: 7,
+    type: "bot",
+    message: "Whatever you are feeling is valid",
+  },
+  {
+    id: 8,
+    type: "bot",
+    message: "And its okay to feel these emotions",
+  },
+  {
+    id: 9,
+    type: "bot",
+    message: "We can try out some activities and see if any of them works out.",
+  },
+  {
+    id: 10,
+    type: "bot",
+    message:
+      "You can write down what are your problems, iss there any possible solution for these problems? Try colouring or any other activity that you love",
+  },
+  {
+    id: 11,
+    type: "bot",
+    message: "You can take your time and let me know the solutions",
+  },
 ];

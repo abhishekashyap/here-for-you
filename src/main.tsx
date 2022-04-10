@@ -6,7 +6,6 @@ import Home from "./pages/Home/Home";
 import Chat from "./pages/Chat/Chat";
 import Layout from "./layout/Layout";
 import Description from "./pages/Description/Description";
-import Choice from "./pages/Choice/Choice";
 import LetUsTalk from "./pages/LetUsTalk/LetUsTalk";
 
 ReactDOM.render(
